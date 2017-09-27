@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  font-family: Arial;
+}
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+.tooltip {
+  clear: left;
+  font-size: 13px;
+}
+input,select,textarea {
+  float: left;
+  clear: left;
+  margin-bottom: 10px;
+  width: 100%;
+}
+p,h1,h3 {
+    clear: left;
+}
+h1 {
+    font-size: 5vw;
+}
+h3 {
+  font-weight: normal;
+  margin-bottom: 0px;
+  font-size: 4vw;
+}
+.tooltip {
+  font-size: 3vw;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+}
+input[type="submit"] {
+    background: #fff;
+    padding: 10px 20px;
+    width: 40%;
+    border: 1px solid #000;
+    margin-top: 15px;
+}
